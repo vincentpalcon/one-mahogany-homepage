@@ -3,13 +3,13 @@
   "short_name": "One Mahogany",
   "icons": [
     {
-      "src": "assets/brand/android-chrome-192x192.png",
+      "src": "assets/brand/android-chrome-192x192.png?v=20261102a-00cc4b3fd82f",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/brand/android-chrome-512x512.png",
+      "src": "assets/brand/android-chrome-512x512.png?v=20261102a-f34df897bebd",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

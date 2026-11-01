@@ -1,7 +1,7 @@
-@font-face{font-family:Poppins;font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/poppins-regular.ttf') format('truetype')}
-@font-face{font-family:Poppins;font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/poppins-medium.ttf') format('truetype')}
-@font-face{font-family:Poppins;font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/poppins-semibold.ttf') format('truetype')}
-@font-face{font-family:Poppins;font-style:normal;font-weight:700;font-display:swap;src:url('assets/fonts/poppins-bold.ttf') format('truetype')}
+@font-face{font-family:Poppins;font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/poppins-regular.ttf?v=20261102a-cdedb1729aca") format('truetype')}
+@font-face{font-family:Poppins;font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/poppins-medium.ttf?v=20261102a-fcff04f4bec2") format('truetype')}
+@font-face{font-family:Poppins;font-style:normal;font-weight:600;font-display:swap;src:url("assets/fonts/poppins-semibold.ttf?v=20261102a-dae40ca7b35f") format('truetype')}
+@font-face{font-family:Poppins;font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/poppins-bold.ttf?v=20261102a-1984efdda0fb") format('truetype')}
 /* Shared pages follow one continuous owner-first journey. */
 :root{--blue:#358ad2;--brand:#358ad2;--navy:#071e32;--text-xs:1rem;--text-sm:1rem}
 html{accent-color:var(--brand)}

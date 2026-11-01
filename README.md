@@ -35,3 +35,5 @@ Subpages use compact, left-aligned editorial heroes with supporting imagery; onl
 - Preview: https://vincentpalcon.github.io/one-mahogany-homepage/
 
 GitHub Pages serves the committed static files from the root of `main`. The `.nojekyll` file keeps the site as plain HTML, CSS, JavaScript, and assets. Regenerate the subpages with `python3 scripts/build-pages.py`, then commit and push the generated HTML alongside the source changes.
+
+Asset cache versions are generated automatically by `scripts/version-assets.py`, which runs at the end of the page build. CSS, JavaScript, favicons, photographs, videos and fonts get content-based versions; hero media has its own generated revision. Bump `CACHE_EPOCH` in that script when a deployment needs to force-refresh unchanged assets too. GitHub Pages controls HTTP cache headers; these asset URLs avoid reusing older asset responses after an update.

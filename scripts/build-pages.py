@@ -217,3 +217,7 @@ s+=section(heading('A few practical questions','This Is a Conversation.<br>Not a
 s+=section(heading('Your business. Our people. A clearer path forward.',"You Built the Business.<br>You Shouldn't Have to Carry It Alone.",'From recognizing the challenge to understanding the right support. A conversation is the next step.')+f'<div style="text-align:center">{link("#conversation","Tell us what’s happening",True)}<a class="journey-back" href="resources.html">Previous chapter: Resources</a></div>','soft')
 write('lets-talk.html',"Let's Talk",'Tell us what is happening in your business. No service selection or technical diagnosis required.',s)
 print('Built 7 journey pages and 6 complete practical guides.')
+
+# Run after all pages are written so asset revisions stay consistent across the site.
+import runpy
+runpy.run_path(str(ROOT / "scripts/version-assets.py"), run_name="__main__")

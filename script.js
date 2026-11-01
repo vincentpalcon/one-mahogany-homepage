@@ -14,6 +14,8 @@
   window.addEventListener('scroll', updateHeader, { passive: true });
   updateHeader();
 
+  const heroMediaVersion = '20261102a-9c14ea3efc62';
+  const heroMediaUrl = path => `${path}?v=${heroMediaVersion}`;
   const hero = $('#home');
   const heroVideos = [$('#hero-video'), $('#hero-video-next')];
   const playButton = $('#video-play');
@@ -49,13 +51,13 @@
     const variant = heroVariant();
     if (element.dataset.slide === String(index) && element.dataset.variant === variant && element.hasAttribute('src')) return;
     element.pause();
-    element.poster = `assets/images/hero/${slide.file}.webp`;
+    element.poster = heroMediaUrl(`assets/images/hero/${slide.file}.webp`);
     element.dataset.slide = String(index);
     element.dataset.variant = variant;
     element.preload = 'auto';
     element.defaultPlaybackRate = heroPlaybackRate;
     element.playbackRate = heroPlaybackRate;
-    element.src = `assets/video/hero/${slide.file}-${variant}.mp4`;
+    element.src = heroMediaUrl(`assets/video/hero/${slide.file}-${variant}.mp4`);
     element.muted = true;
     element.load();
   }
@@ -195,7 +197,7 @@
     const outgoing = activeHeroVideo();
     const incoming = heroVideos[1 - activeHeroSlot];
     incoming.classList.add('is-preparing');
-    incoming.poster = `assets/images/hero/${heroSlides[index].file}.webp`;
+    incoming.poster = heroMediaUrl(`assets/images/hero/${heroSlides[index].file}.webp`);
     if (!reducedMotion.matches && !navigator.connection?.saveData) {
       loadHeroVideo(incoming, index);
       try { incoming.currentTime = 0; } catch { /* Keep the poster until metadata is ready. */ }

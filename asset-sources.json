@@ -143,36 +143,43 @@
   },
   "assets/images/tony-office-archive.webp": "06 - ABOUT US Page/06 - ABOUT US Page _ Images/Tony _ work photos/Tony _ BPO/Tony nokia 6300382.jpg",
   "assets/brand/favicon-96x96.png": {
-    "type": "Official favicon copied without modification",
-    "source": "https://onemahogany.com/wp-content/themes/onemahoganyglobal/assets/img/favicon/favicon-96x96.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/favicon.svg": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/logo-light.svg"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/favicon-16x16.png": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/icon.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/favicon-32x32.png": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/icon.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/apple-touch-icon.png": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/icon.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/android-chrome-192x192.png": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/icon.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "assets/brand/android-chrome-512x512.png": {
-    "type": "Favicon derived from existing high-resolution brand artwork, matching the official site favicon",
-    "source": "assets/brand/icon.png"
+    "type": "Favicon from user-supplied SVG artwork",
+    "source": "User-provided favicon.svg",
+    "processing": "Removed embedded script; preserved vector artwork. PNG sizes rendered from the sanitized SVG."
   },
   "favicon.ico": {
     "type": "Multi-size browser favicon",
-    "source": "assets/brand/icon.png",
+    "source": "assets/brand/favicon.svg",
     "sizes": [
       16,
       32,
