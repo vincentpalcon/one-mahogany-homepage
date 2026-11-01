@@ -1,0 +1,10 @@
+# Local files and credentials
+.DS_Store
+.env
+.env.*
+__pycache__/
+*.py[cod]
+
+# Superseded generated portrait drafts (not used by the site)
+/assets/images/tony-office-portrait.*
+/assets/images/tony-office-working.*

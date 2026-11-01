@@ -1,0 +1,102 @@
+[
+  {
+    "chapter": "community",
+    "original": "hero/19384325-hd_1920_1080_30fps.mp4",
+    "source_bytes": 7444233,
+    "start_seconds": 0,
+    "duration_seconds": 7,
+    "outputs": [
+      {
+        "path": "assets/video/hero/community-desktop.mp4",
+        "bytes": 1689559,
+        "width": 1600
+      },
+      {
+        "path": "assets/video/hero/community-mobile.mp4",
+        "bytes": 694242,
+        "width": 960
+      }
+    ],
+    "poster": "assets/images/hero/community.webp"
+  },
+  {
+    "chapter": "support",
+    "original": "hero/7479048-hd_2048_1080_25fps.mp4",
+    "source_bytes": 13080889,
+    "start_seconds": 5,
+    "duration_seconds": 7,
+    "outputs": [
+      {
+        "path": "assets/video/hero/support-desktop.mp4",
+        "bytes": 611343,
+        "width": 1600
+      },
+      {
+        "path": "assets/video/hero/support-mobile.mp4",
+        "bytes": 251801,
+        "width": 960
+      }
+    ],
+    "poster": "assets/images/hero/support.webp"
+  },
+  {
+    "chapter": "success",
+    "original": "hero/7551577-hd_1920_1080_30fps.mp4",
+    "source_bytes": 6520894,
+    "start_seconds": 1,
+    "duration_seconds": 7,
+    "outputs": [
+      {
+        "path": "assets/video/hero/success-desktop.mp4",
+        "bytes": 1444692,
+        "width": 1600
+      },
+      {
+        "path": "assets/video/hero/success-mobile.mp4",
+        "bytes": 643138,
+        "width": 960
+      }
+    ],
+    "poster": "assets/images/hero/success.webp"
+  },
+  {
+    "chapter": "freedom",
+    "original": "hero/5101884-hd_1920_1080_30fps.mp4",
+    "source_bytes": 13397924,
+    "start_seconds": 0.5,
+    "duration_seconds": 7,
+    "outputs": [
+      {
+        "path": "assets/video/hero/freedom-desktop.mp4",
+        "bytes": 1761908,
+        "width": 1600
+      },
+      {
+        "path": "assets/video/hero/freedom-mobile.mp4",
+        "bytes": 822475,
+        "width": 960
+      }
+    ],
+    "poster": "assets/images/hero/freedom.webp"
+  },
+  {
+    "chapter": "family",
+    "original": "hero/5617143-hd_1920_1080_25fps.mp4",
+    "source_bytes": 7404144,
+    "start_seconds": 3,
+    "duration_seconds": 7,
+    "outputs": [
+      {
+        "path": "assets/video/hero/family-desktop.mp4",
+        "bytes": 1455568,
+        "width": 1600
+      },
+      {
+        "path": "assets/video/hero/family-mobile.mp4",
+        "bytes": 661958,
+        "width": 960
+      }
+    ],
+    "poster": "assets/images/hero/family.webp"
+  }
+]
