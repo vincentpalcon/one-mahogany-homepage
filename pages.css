@@ -281,18 +281,18 @@ h1,h2,h3{letter-spacing:-.035em}
 
 /* An inset video card; the white frame and hero together fill the first screen. */
 .hero{margin:12px;height:calc(100vh - 24px);min-height:0;max-height:none;border-radius:24px;overflow:hidden}
-.site-header:not(.scrolled),.site-header:not(.scrolled):has(nav.is-open){top:24px}
+.site-header:not(.scrolled),.site-header:not(.scrolled):has(nav.is-open){top:32px}
 .site-header:not(.scrolled) .header-inner{width:min(var(--container),calc(100% - 120px))}
 @media(max-width:760px){
  .hero{margin:8px;height:calc(100vh - 16px);border-radius:20px}
- .site-header:not(.scrolled),.site-header:not(.scrolled):has(nav.is-open){top:16px}
+ .site-header:not(.scrolled),.site-header:not(.scrolled):has(nav.is-open){top:22px}
  .site-header:not(.scrolled) .header-inner{width:calc(100% - 52px)}
 }
 /* Subpages retain their existing full-width photograph openings. */
-.inner-page .site-header:not(.scrolled),.inner-page .site-header:not(.scrolled):has(nav.is-open){top:18px}
+.inner-page .site-header:not(.scrolled),.inner-page .site-header:not(.scrolled):has(nav.is-open){top:32px}
 .inner-page .site-header:not(.scrolled) .header-inner{width:min(var(--container),calc(100% - 96px))}
 @media(max-width:760px){
- .inner-page .site-header:not(.scrolled),.inner-page .site-header:not(.scrolled):has(nav.is-open){top:12px}
+ .inner-page .site-header:not(.scrolled),.inner-page .site-header:not(.scrolled):has(nav.is-open){top:22px}
  .inner-page .site-header:not(.scrolled) .header-inner{width:calc(100% - 36px)}
 }
 
