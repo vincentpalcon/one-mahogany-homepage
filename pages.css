@@ -960,3 +960,6 @@ body.record-preview-open{overflow:hidden}
 @keyframes record-preview-enter{from{opacity:0;transform:translateY(10px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
 @media(max-width:600px){.heartland-source-trigger{padding:16px;gap:12px}.heartland-document-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px);padding:18px;border-radius:16px}.heartland-document-toolbar{gap:12px;margin-bottom:18px}.heartland-document-toolbar h2{font-size:1.125rem}.heartland-document-icon{flex-basis:38px;width:38px;height:44px}}
 @media(prefers-reduced-motion:reduce){.heartland-source-trigger{transition:none}}
+
+/* Keep the fixed header and page together at the vertical scroll boundaries. */
+html,body{overscroll-behavior-y:none}
