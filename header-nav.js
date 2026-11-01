@@ -67,6 +67,11 @@
   drawer.className = 'mobile-menu';
   drawer.setAttribute('aria-label', 'Site navigation');
   drawer.innerHTML = '<div class="mobile-menu-heading"><button class="mobile-menu-close" type="button" aria-label="Close navigation"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div>';
+  const drawerFooter = document.createElement('div');
+  drawerFooter.className = 'mobile-menu-footer';
+  const mobileCTA = nav.querySelector('.mobile-nav-cta');
+  if (mobileCTA) drawerFooter.append(mobileCTA);
+  drawer.append(drawerFooter);
   document.body.append(drawer);
   let closeTimer = null;
   function notify() { document.dispatchEvent(new Event('site-menu-change')); }
@@ -104,7 +109,7 @@
   function placeNavigation() {
     finishClose(false);
     if (desktop.matches) navHome.insertBefore(nav, navHome.querySelector('.header-cta'));
-    else drawer.append(nav);
+    else drawer.insertBefore(nav, drawerFooter);
   }
   toggle.addEventListener('click', () => drawer.open ? closeDrawer() : openDrawer());
   drawer.querySelector('.mobile-menu-close').addEventListener('click', () => closeDrawer());
@@ -121,6 +126,7 @@
     if (event.target === drawer && event.clientX < drawer.getBoundingClientRect().left) closeDrawer();
   });
   nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeDrawer(false)));
+  mobileCTA?.addEventListener('click', () => closeDrawer(false));
   desktop.addEventListener('change', placeNavigation);
   placeNavigation();
 
